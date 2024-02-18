@@ -1,0 +1,10 @@
+{
+    "acls":{
+        "1" :{
+            "tenant": "moon",
+            "sub": "charlou",
+            "action": "*",
+            "resource": "*"
+        }
+    }
+}
