@@ -53,9 +53,6 @@ allow {
 	input.action == permission.action
 	input.type == permission.type
 
-	# unless user location is outside US
-	country := data.users[input.user].location.country
-	country == "US"
 }
 
 # user_is_admin is true if...
